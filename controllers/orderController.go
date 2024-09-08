@@ -79,7 +79,7 @@ func UpdateOrder(ctx *gin.Context) {
 	}
 	ctx.JSON(http.StatusOK, gin.H{
 		"data":    updated_order,
-		"message": "berhasil menambahkan data",
+		"message": "berhasil mengupdate data",
 		"success": true,
 	})
 }
